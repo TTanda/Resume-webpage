@@ -1,0 +1,12 @@
+ body  {
+    background-color: rgba(238, 208, 250, 0.3);
+    background-image: linear-gradient(to right, rgb(255,255,255), rgb(4, 197, 187));
+ }
+
+ h1, h2 {
+    color: rgb(26, 24, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+ }
