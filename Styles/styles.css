@@ -1,34 +1,45 @@
  body  {
     background-color: rgba(238, 208, 250, 0.3);
-    background-image: linear-gradient(to right, rgb(255,255,255), rgb(4, 197, 187));
+    background-image: linear-gradient(to right, rgb(255,255,255), rgb(45, 109, 107));
  }
+p {
+   font-family: 'Montserrat' ;
+   font-size: 20px;
 
+}
+ul  {
+   list-style-type: none;
+   color: rgb(71, 14, 54);
+   font-family: 'Dancing Script';
+   font-size: 40px;
+   text-align: center;
+
+}
  h1 {
     color: rgb(26, 24, 24);
     font-family: 'Dancing Script';
-    font-size: 50px;
-    text-align: center;
-    font-style: italic; 
+    font-size: 150px;
+    text-align: center; 
  }
  h2 {
     color: rgb(44, 80, 97);
     font-family: 'Dancing Script';
-    font-size: 35;
+    font-size: 75px;
     text-align: center;
-    font-style: italic;  
  }
 .vertical-menu a  {
      font-family:'Montserrat' ;
-     background-color: rgb(40, 100, 100);
+     font-weight: bold;
+     background-image: linear-gradient(to bottom, rgb(252, 217, 252), rgb(69, 126, 124));
      color: rgb(255,255,255);
      display: block;
-     padding: 15px;
+     padding: 10px;
      text-decoration: none;
 }
 .vertical-menu a:hover {
-   background-color: rgb(144, 128, 247);
+   background-color: rgb(252, 6, 170);
 }
 .vertical-menu a.active {
-   background-color: rgba(243, 26, 189, 0.678);
+   background-color: rgba(247, 80, 205, 0.822);
    color: rgb(26, 24, 24);
 }
