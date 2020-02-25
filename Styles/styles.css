@@ -5,16 +5,30 @@
 
  h1 {
     color: rgb(26, 24, 24);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script';
     font-size: 50px;
     text-align: center;
     font-style: italic; 
  }
  h2 {
     color: rgb(44, 80, 97);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script';
     font-size: 35;
     text-align: center;
-    font-style: italic;
-    
+    font-style: italic;  
  }
+.vertical-menu a  {
+     font-family:'Montserrat' ;
+     background-color: rgb(40, 100, 100);
+     color: rgb(255,255,255);
+     display: block;
+     padding: 15px;
+     text-decoration: none;
+}
+.vertical-menu a:hover {
+   background-color: rgb(144, 128, 247);
+}
+.vertical-menu a.active {
+   background-color: rgba(243, 26, 189, 0.678);
+   color: rgb(26, 24, 24);
+}
