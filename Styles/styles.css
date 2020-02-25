@@ -1,31 +1,39 @@
  body  {
+    font-size: 100%;
     background-color: rgba(238, 208, 250, 0.3);
     background-image: linear-gradient(to right, rgb(255,255,255), rgb(45, 109, 107));
  }
 p {
    font-family: 'Montserrat' ;
-   font-size: 20px;
+   font-size: 1.25em;
+   text-align: left;
 
 }
 ul  {
    list-style-type: none;
    color: rgb(71, 14, 54);
    font-family: 'Dancing Script';
-   font-size: 40px;
+   font-size: 2.75em;
    text-align: center;
 
 }
  h1 {
-    color: rgb(26, 24, 24);
-    font-family: 'Dancing Script';
-    font-size: 150px;
+    color: rgb(116, 13, 73);
+    font-family: 'Great Vibes';
+    font-size: 10em;
     text-align: center; 
  }
  h2 {
     color: rgb(44, 80, 97);
     font-family: 'Dancing Script';
-    font-size: 75px;
+    font-size: 4.5em;
     text-align: center;
+ }
+ h3  {
+    color: rgb(6, 82, 85);
+    font-family: 'Dancing Script';
+    font-size: 3.5em;
+    margin: 120px;
  }
 .vertical-menu a  {
      font-family:'Montserrat' ;
