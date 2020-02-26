@@ -58,11 +58,11 @@ ul  {
    color: rgb(26, 24, 24);
 }
 .flex-container {
-display: auto;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
+display: flex;
+
+justify-content: space-evenly;
 }
+
 .div {
    display: flex;
    color: rgb(20, 20, 20);
