@@ -57,3 +57,7 @@ ul  {
    background-color: rgba(247, 80, 205, 0.822);
    color: rgb(26, 24, 24);
 }
+.flex-container {
+display: flex;
+flex-direction: column;
+}
