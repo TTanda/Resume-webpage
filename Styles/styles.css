@@ -35,6 +35,12 @@ ul  {
     font-size: 3.5em;
     margin: 120px;
  }
+ h5  {
+    color: rgb(173, 12, 173);
+    font-family: 'Montserrat';
+    font-size: 2em;
+    margin: 80px;
+ }
 .vertical-menu a  {
      font-family:'Montserrat' ;
      font-weight: bold;
