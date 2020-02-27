@@ -7,6 +7,9 @@ p {
    font-family: 'Montserrat' ;
    font-size: 1.25em;
    text-align: left;
+   margin-left: 88px;
+   margin-bottom: 10px;
+   line-height: 1.5;
 
 }
 ul  {
@@ -18,7 +21,7 @@ ul  {
 
 }
  h1 {
-    color: rgb(116, 13, 73);
+    color: rgb(3, 39, 87);
     font-family: 'Great Vibes';
     font-size: 10em;
     display: inline-block;
@@ -26,10 +29,11 @@ ul  {
     top: -20px;
  }
  h2 {
-    color: rgb(44, 80, 97);
+    color: rgb(184, 12, 146);
     font-family: 'Dancing Script';
     font-size: 6em;
     text-align: center;
+    padding: 15px;
  }
  h3  {
     color: rgb(6, 82, 85);
@@ -40,13 +44,22 @@ ul  {
  h5  {
     color: rgb(173, 12, 173);
     font-family: 'Montserrat';
+    font-weight: bolder;
     font-size: 2.5em;
     margin: 80px;
+ }
+ h6  {
+    color: rgb(6, 82, 85);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: 2.25em;
+    margin: 90px;
+
  }
  img{
     width:200px;
     border-radius: 50%;
-    border: 5px dotted rgb(173, 12, 173);
+    border: 5px groove rgb(2, 29, 70);
  }
  .inlineHeading{
     width: fit-content;
@@ -58,10 +71,10 @@ ul  {
 .vertical-menu a  {
      font-family:'Montserrat' ;
      font-weight: bold;
-     background-image: linear-gradient(to bottom, rgb(252, 217, 252), rgb(69, 126, 124));
+     background-image: linear-gradient(to bottom, rgb(250, 207, 250), rgb(113, 164, 177));
      color: rgb(255,255,255);
      display: block;
-     padding: 10px;
+     padding: 15px;
      text-decoration: none;
 }
 .vertical-menu a:hover {
