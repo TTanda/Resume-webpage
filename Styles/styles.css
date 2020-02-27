@@ -1,7 +1,7 @@
  body  {
     font-size: 100%;
     background-color: rgba(238, 208, 250, 0.3);
-    background-image: linear-gradient(to right, rgb(255,255,255), rgb(45, 109, 107));
+    background-image: linear-gradient(to right, rgb(255,255,255), rgb(59, 133, 130));
  }
 p {
    font-family: 'Montserrat' ;
@@ -37,7 +37,7 @@ ul  {
     padding: 30px;
  }
  h3  {
-    color: rgb(6, 82, 85);
+    color: rgb(18, 33, 73);
     font-family: 'Dancing Script';
     font-size: 7em;
     text-align: center;
@@ -61,8 +61,10 @@ ul  {
  img{
     width:200px;
     border-radius: 50%;
-    border: 10px groove rgb(184, 86, 151);
+    border: 2px solid rgb(230, 136, 230);
+    box-shadow: 5px  10px 20px rgba(6, 82, 85, 0.9);
  }
+
  .inlineHeading{
     width: fit-content;
     margin: 0 auto;
@@ -85,13 +87,13 @@ ul  {
      padding: 20px;
      text-decoration: none;
      border-radius: 15px;
-     box-shadow: 0 9px rgb(6, 82, 85);
+     box-shadow: 0 9px 10px rgba(6, 82, 85, 0.6);
 }
 .vertical-menu a:hover {
    background-color: rgb(252, 6, 170);
 }
 .vertical-menu a.active {
-   background-color: rgba(247, 80, 205, 0.822);
+   background-color: rgb(247, 80, 205, 0.822);
    color: rgb(26, 24, 24);
 }
 .flex-container {
