@@ -87,6 +87,7 @@ ul  {
      padding: 20px;
      text-decoration: none;
      border-radius: 15px;
+     border: 2px solid rgb(230, 136, 230);
      box-shadow: 0 9px 10px rgba(6, 82, 85, 0.6);
 }
 .vertical-menu a:hover {
