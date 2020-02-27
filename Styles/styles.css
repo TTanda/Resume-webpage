@@ -18,6 +18,7 @@ ul  {
    font-family: 'Dancing Script';
    font-size: 2.75em;
    text-align: center;
+   text-decoration: none;
 
 }
  h1 {
@@ -31,35 +32,36 @@ ul  {
  h2 {
     color: rgb(184, 12, 146);
     font-family: 'Dancing Script';
-    font-size: 6em;
+    font-size: 6.75em;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
  }
  h3  {
     color: rgb(6, 82, 85);
     font-family: 'Dancing Script';
-    font-size: 3.5em;
+    font-size: 7em;
+    text-align: center;
     margin: 120px;
  }
  h5  {
     color: rgb(173, 12, 173);
     font-family: 'Montserrat';
     font-weight: bolder;
-    font-size: 2.5em;
+    font-size:3.75em;
     margin: 80px;
  }
  h6  {
     color: rgb(6, 82, 85);
     font-family: 'Montserrat';
     font-weight: bold;
-    font-style: 2.25em;
+    font-style: 3em;
     margin: 90px;
 
  }
  img{
     width:200px;
     border-radius: 50%;
-    border: 5px groove rgb(2, 29, 70);
+    border: 10px groove rgb(184, 86, 151);
  }
  .inlineHeading{
     width: fit-content;
@@ -75,7 +77,7 @@ ul  {
 .vertical-menu a  {
      font-family:'Montserrat' ;
      font-weight: bold;
-     background-image: linear-gradient(to bottom, rgb(250, 207, 250), rgb(113, 164, 177));
+     background-image: linear-gradient(to bottom, rgb(241, 183, 241), rgb(103, 150, 161));
      color: rgb(255,255,255);
      width: 200px;
      display: inline-block;
@@ -94,7 +96,6 @@ ul  {
 }
 .flex-container {
 display: flex;
-
 justify-content: space-evenly;
 }
 
