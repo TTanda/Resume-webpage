@@ -1,108 +1,97 @@
- body  {
-    font-size: 100%;
-    background-color: rgba(238, 208, 250, 0.3);
-    background-image: linear-gradient(to right, rgb(255,255,255), rgb(59, 133, 130));
+body {
+   font-family: "Montserrat"; /*Moved to body - DRY*/
+   font-size: 100%;
+   background-color: rgba(238, 208, 250, 0.3);
+   background-image: linear-gradient(
+     to right,
+     rgb(255, 255, 255),
+     rgb(59, 133, 130)
+   );
  }
-p {
-   font-family: 'Montserrat' ;
+ p {
    font-size: 1.25em;
    text-align: left;
    margin-left: 88px;
    margin-bottom: 10px;
    line-height: 1.5;
-
-}
-ul  {
+ }
+ ul {
    list-style-type: none;
    color: rgb(71, 14, 54);
-   font-family: 'Dancing Script';
+   font-family: "Dancing Script";
    font-size: 2.75em;
    text-align: center;
    text-decoration: none;
-
-}
+ }
  h1 {
-    color: rgb(3, 39, 87);
-    font-family: 'Great Vibes';
-    font-size: 10em;
-    display: inline-block;
-    position: relative;
-    top: -20px;
+   color: rgb(190, 33, 190);/*changed color here, for design, as h2 and 3 are same color now*/
+   font-family: "Great Vibes";
+   font-size: 10em;
+   display: inline-block;
+   position: relative;
+   top: -20px;
  }
- h2 {
-    color: rgb(184, 12, 146);
-    font-family: 'Dancing Script';
-    font-size: 6.75em;
-    text-align: center;
-    padding: 30px;
+ h2, h3 { /*grouped these elements together (DRY), as they were very close in attributes*/
+   color: rgb(18, 33, 73);
+   font-family: "Dancing Script";
+   font-size: 7em;
+   text-align: center;
+   margin: 120px;
  }
- h3  {
-    color: rgb(18, 33, 73);
-    font-family: 'Dancing Script';
-    font-size: 7em;
-    text-align: center;
-    margin: 120px;
+ h5,
+ h6 {
+   /* Moved these two elements together...they were very close in size, margin etc, and it doesn't affect the design integrity to have color change*/
+   color: rgb(190, 33, 190);
+   font-weight: bolder;
+   font-size: 3em;
+   margin: 80px;
  }
- h5  {
-    color: rgb(190, 33, 190);
-    font-family: 'Montserrat';
-    font-weight: bolder;
-    font-size:3em;
-    margin: 80px;
+ img {
+   width: 200px;
+   border-radius: 50%;
+   border: 2px solid rgb(230, 136, 230);
+   box-shadow: 5px 10px 20px rgba(6, 82, 85, 0.9);
  }
- h6  {
-    color: rgb(6, 82, 85);
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 3em;
-    margin: 90px;
-
+ 
+ .inlineHeading {
+   width: fit-content;
+   margin: 0 auto;
  }
- img{
-    width:200px;
-    border-radius: 50%;
-    border: 2px solid rgb(230, 136, 230);
-    box-shadow: 5px  10px 20px rgba(6, 82, 85, 0.9);
- }
-
- .inlineHeading{
-    width: fit-content;
-    margin: 0 auto;
- }
- header{
-    margin:5% auto;
+ header {
+   margin: 5% auto;
  }
  .vertical-menu {
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
  }
-.vertical-menu a  {
-     font-family:'Montserrat' ;
-     font-weight: bold;
-     background-image: linear-gradient(to bottom, rgb(241, 183, 241), rgb(126, 176, 187));
-     color: rgb(255,255,255);
-     width: 200px;
-     display: inline-block;
-     margin: 25px;
-     padding: 20px;
-     text-decoration: none;
-     border-radius: 15px;
-     box-shadow: 0 9px 10px rgba(6, 82, 85, 0.6);
-}
-.vertical-menu a:hover {
+ .vertical-menu a {
+   font-weight: bold;
+   background-image: linear-gradient(
+     to bottom,
+     rgb(241, 183, 241),
+     rgb(126, 176, 187)
+   );
+   color: rgb(255, 255, 255);
+   width: 200px;
+   display: inline-block;
+   margin: 25px;
+   padding: 20px;
+   text-decoration: none;
+   border-radius: 15px;
+   box-shadow: 0 9px 10px rgba(6, 82, 85, 0.6);
+ }
+ .vertical-menu a:hover {
    background-color: rgb(252, 6, 170);
-}
-.vertical-menu a.active {
+ }
+ .vertical-menu a.active {
    background-color: rgb(247, 80, 205, 0.822);
-   
- 
-}
-.flex-container {
-display: flex;
-justify-content: space-evenly;
-}
-.div {
+ }
+ .flex-container {
+   display: flex;
+   justify-content: space-evenly;
+ }
+ .div {
    display: flex;
    color: rgb(20, 20, 20);
-   font-family: 'Montserrat';
-}
+ }
+ 
